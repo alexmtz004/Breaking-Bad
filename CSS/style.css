@@ -1,0 +1,149 @@
+body{
+    background-image:url(../img/fondo.jpg);
+    background-size: cover;
+    text-align: center;
+    color:white;
+    
+}
+
+/* CSS de index.html */
+
+#logo{
+    width: 200px;
+    height: 200px;
+}
+
+
+#poster{
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+    
+    
+
+}
+
+/*CSS de formulario.html*/
+#formulario{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    text-align: left;
+}
+
+fieldset{
+    background-color: rgb(247, 247, 90);
+}
+
+#file{
+    background-color: rgb(154, 152, 152);
+}
+
+
+#reset{
+    background-color:  rgb(237, 70, 70) ;
+}
+
+#submit{
+    background-color: rgb(109, 239, 109);
+}
+
+h1{
+    text-align: center;
+    color: orange;
+}
+
+
+#titulos{
+    background-color: yellow;
+}
+
+
+/* CSS de tabla.html */
+#bodytabla{
+    background-image: none;
+    background-color:#0c3e11;
+    color:black;
+    text-align: center;
+    
+    
+   
+}
+
+
+
+#tabla1{
+    
+    width: 748px;
+    height: 584px;
+    background-color: black;
+    margin:auto;
+    
+    
+    
+}
+
+
+
+td{
+    border:1px solid black;
+    border-collapse: separate;
+    width:69px;
+    height:73px;
+
+}
+
+.inciales{
+    font-size:14px;
+}
+
+.sub{
+    font-size:10px;
+}
+
+
+
+#coloruno{
+    background-color: rgb(156, 209, 11);
+}
+
+#colordos{
+    background-color: rgb(188, 230, 147);
+}
+
+#colortres{
+    background-color: rgba(128, 255, 0, 0.525);
+}
+
+#colorcuatro {
+    background-color: rgba(38, 98, 38, 0.67);
+}
+
+#colorcinco{
+    background-color: rgb(165, 237, 87);
+}
+
+#colorseis{
+    background-color: rgb(128, 128, 128);
+}
+
+#colorsiete{
+    background-color: rgba(128, 128, 128, 0.354);
+}
+
+#colorMa{
+    background-color: rgba(101, 21, 141, 0.884);
+}
+
+#colorBlanco{
+    background-color: white;
+}
+
+#tabla2{
+    background-color: black;
+    margin:auto;
+    
+}
+.celdasT2{
+    background-color: rgba(246, 255, 0, 0.722);
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icon/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Formulario</title>
+</head>
+<body id="formulario">
+    <form action="mailto:raul.rodriguez@proeducaglobal.com">
+        <h1><u><b>Breaking Bad- Que comience el juego!</b></u></h1>
+        <fieldset>
+            <legend id="titulos"><b>Datos Personales</b></legend>
+            <i> Nombre: </i> <input type="text" name="" id="" required><br><br>
+            <i>Apellidos: </i> <input type="text" name="" id="" required><br><br>
+            <i> Dirección Postal:</i>  <input type="text" name="" id="" placeholder="Calle, Nº, Piso, Cód.Postal"><br><br>
+            <i> DNI: </i> <input type="text" name="" id=""><br><br>
+            <i> Correo Electrónico: </i> <input type="email" name="" id="" required>
+        </fieldset><br>
+        <fieldset>
+            <legend id="titulos"><b>Sexo Usuario</b></legend>
+            <i>Hombre</i><input type="radio" name="sexo" id=""><br>
+            <i>Mujer</i><input type="radio" name="sexo" id="">
+
+        </fieldset><br>
+        <fieldset>
+            <legend id="titulos"><b>Fecha nacimiento</b></legend>
+            <input type="date" name="" id="">
+
+        </fieldset><br>
+        <fieldset>
+            <legend id="titulos"><b>Personajes</b></legend>
+            <input type="text" list="personajes">
+            <datalist id="personajes">
+                <option value="Jessie Pinkman"></option>
+                <option value="Walter White"></option>
+                <option value="Saul Goodman"></option>
+                <option value="GustavoFring"></option>
+                <option value="Pollos Hermanos"></option>
+                <option value="Otros personajes"></option>
+            </datalist>
+        </fieldset><br>
+        <fieldset>
+            <legend id="titulos"><b>Comentarios</b></legend>
+            <textarea name="" id="" cols="50" rows="10">
+                
+            </textarea>
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar" id="submit" ><br>
+        <input type="reset" value="Borrar" id="reset"><br>
+        <input type="file" name="" id="file">
+           
+            
+        
+        
+    </form>
+</body>
+</html>
