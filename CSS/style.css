@@ -1,6 +1,7 @@
 @font-face {
     font-family: "Breaking B";
     src: url(/font/Breaking\ Bad.ttf);
+    
 }
 body{
     background-image:url(../img/fondo.jpg);
@@ -8,7 +9,7 @@ body{
     text-align: center;
     color:white;
     font-family: "Breaking B";
-    font-size:14px;
+    font-size:36px;
     
 }
 
