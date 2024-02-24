@@ -38,7 +38,7 @@ body{
 }
 
 fieldset{
-    background-color: rgb(247, 247, 90);
+    background-color: rgba(247, 247, 90, 0.787);
 }
 
 #file{
@@ -71,6 +71,7 @@ h1{
     background-color:#0c3e11;
     color:black;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
     
    
