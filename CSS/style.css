@@ -5,7 +5,10 @@
 }
 body{
     background-image:url(../img/fondo.jpg);
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
     text-align: center;
     color:white;
     font-family: "Breaking B";
@@ -73,8 +76,6 @@ h1{
     color:black;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-    
    
 }
 
