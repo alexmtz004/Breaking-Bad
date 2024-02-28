@@ -19,27 +19,27 @@ body{
 /* CSS de index.html */
 
 #logo{
-    width: 200px;
-    height: 200px;
+   height: 200px;
+   width: 200px;
 }
 
 
 #poster{
-    width: 700px;
-    height: 300px;
     border: 10px outset brown;
     border-radius: 22px;
-    
-    
+    height: 300px;
+    width: 700px;
 
 }
 
 /*CSS de formulario.html*/
 #formulario{
-    font-family: Arial, Helvetica, sans-serif;
     color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
     text-align: left;
 }
+
 
 fieldset{
     background-color: rgba(247, 247, 90, 0.787);
@@ -49,6 +49,21 @@ fieldset{
     background-color: rgb(154, 152, 152);
 }
 
+h1{
+    color: orange;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+
+.italic{
+    font-style: italic;
+}
+
+#postal{
+    margin:10px
+}
 
 #reset{
     background-color:  rgb(237, 70, 70) ;
@@ -58,20 +73,16 @@ fieldset{
     background-color: rgb(109, 239, 109);
 }
 
-h1{
-    text-align: center;
-    color: orange;
-}
-
 
 #titulos{
     background-color: yellow;
+    font-weight: bold;
 }
 
 
 /* CSS de tabla.html */
 #bodytabla{
-    background-color: rgb(0, 128, 15);
+    background-color: #0c3e11;
     background-image: none;
     color:black;
     font-family: Arial, Helvetica, sans-serif;
@@ -80,14 +91,13 @@ h1{
     text-align: center;
 }
 
-
-/* tabla 1 */
+/* TABLA 1 */
 #tabla1{
     background-color: black;
     border:3px solid black;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
     
 }
 
@@ -134,7 +144,7 @@ tr td{
     background-color: rgb(129, 71, 129);
 }
 
-/* Tabla dos */
+/* TABLA 2 */
 #tabla2{
 
     background-color: black;
