@@ -71,88 +71,86 @@ h1{
 
 /* CSS de tabla.html */
 #bodytabla{
+    background-color: rgb(0, 128, 15);
     background-image: none;
-    background-color:#0c3e11;
     color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
 }
 
 
-
+/* tabla 1 */
 #tabla1{
-    
-    width: 748px;
-    height: 584px;
     background-color: black;
-    margin:auto;
+    border:3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
     
-    
-    
+}
+
+tr td{
+    border: 3px solid black;
+    height: 73px;
+    width: 68px;
+}
+
+.celda1{
+    background-color: greenyellow;
 }
 
 
-
-td{
-    border:1px solid black;
-    border-collapse: separate;
-    width:69px;
-    height:73px;
-
+.celda2{
+    background-color: rgb(198, 212, 97);
 }
 
-.inciales{
-    font-size:14px;
-}
-
-.sub{
-    font-size:10px;
-}
-
-
-
-#coloruno{
-    background-color: rgb(156, 209, 11);
-}
-
-#colordos{
-    background-color: rgb(188, 230, 147);
-}
-
-#colortres{
-    background-color: rgba(128, 255, 0, 0.525);
-}
-
-#colorcuatro {
-    background-color: rgba(38, 98, 38, 0.67);
-}
-
-#colorcinco{
-    background-color: rgb(165, 237, 87);
-}
-
-#colorseis{
-    background-color: rgb(128, 128, 128);
-}
-
-#colorsiete{
-    background-color: rgba(128, 128, 128, 0.354);
-}
-
-#colorMa{
-    background-color: rgba(101, 21, 141, 0.884);
-}
-
-#colorBlanco{
+.celda3{
     background-color: white;
 }
 
-#tabla2{
-    background-color: black;
-    margin:auto;
-    
+.celda4{
+    background-color: rgb(68, 109, 3);
 }
-.celdasT2{
-    background-color: rgba(246, 255, 0, 0.722);
+
+.celda5{
+    background-color: rgb(24, 73, 24);
+}
+
+.celda6 {
+    background-color:  rgb(197, 215, 62);;
+}
+
+.celda7{
+    background-color: rgb(158, 157, 157);
+}
+
+.celda8{
+    background-color: rgb(69, 57, 57);
+}
+
+.celda9{
+    background-color: rgb(129, 71, 129);
+}
+
+/* Tabla dos */
+#tabla2{
+
+    background-color: black;
+    border:3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.celda10{
+    background-color: rgb(191, 236, 9);
+    border:3px solid black;
+    height: 73px;
+    width: 68px;
+}
+
+sub{
+    font-size: 10px;
+    font-weight: normal;
 }
